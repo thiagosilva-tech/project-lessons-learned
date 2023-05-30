@@ -41,27 +41,15 @@ img {
         margin-bottom: 80px;
 }
 
-#lista_ordenada {
-    float: left;
-    width: 40%;
-    margin-left: 150px;
-}
-
-#lista_desordenada {
-    float: right;
-    width: 40%;
-    margin-right: 80px;
-}
-
-#lado-esquerdo h2 {
+.lado-esquerdo h3 {
         text-align: center;
 }
 
 #section{
-    overflow: auto;
+        overflow: auto;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
         text-align: justify;
         float: left;
         margin-left: 80px;
@@ -69,7 +57,7 @@ img {
         width: 60%;
 }
 
-#lado-direito {
+.lado-direito {
         text-align: center;
         float: right;
         margin-right: 80px;
