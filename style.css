@@ -58,10 +58,13 @@ img {
 }
 
 .lado-direito {
-  text-align: center;
   float: right;
   margin-right: 80px;
   width: 20%;
+}
+
+.lado-direito h3 , .lado-direito p {
+  text-align: center;
 }
 
 table {
