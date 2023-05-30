@@ -63,6 +63,12 @@ img {
   width: 20%;
 }
 
+footer p {
+    margin-top: 10px;
+    color: rgb(252, 248, 214);
+    font-size: 12px;
+  }
+
 .lado-direito h3 , .lado-direito p {
   text-align: center;
 }
@@ -102,10 +108,4 @@ a:hover {
   color: rgb(82, 104, 160);
   text-decoration: none;
   cursor: pointer;
-}
-
-footer p {
-  margin-top: 10px;
-  color: rgb(252, 248, 214);
-  font-size: 12px;
 }
