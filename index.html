@@ -14,50 +14,53 @@
     <main>
         <img src="./imagem/foto.jpeg" alt="Minha foto" id="minha_foto">
 
-        <div id="lista_ordenada">
-            <h2>Lições aprendidas</h2>
-            <ol id="licoes_aprendidas">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>Autoliderança</li>
-                <li>Como pedir ajuda</li>
-                <li>Assertividade</li>
-                <li>Comunicação</li>
-                <li>Escuta ativa</li>
-            </ol>
+        <div id="listas">
+            <div id="lista_ordenada">
+                <h2>Lições aprendidas</h2>
+                <ol id="licoes_aprendidas">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Autoliderança</li>
+                    <li>Como pedir ajuda</li>
+                    <li>Assertividade</li>
+                    <li>Comunicação</li>
+                    <li>Escuta ativa</li>
+                </ol>
+            </div>
+    
+            <div id="lista_desordenada">
+                <h2>Lições a aprender</h2>
+                <ul id="licoes_a_aprender">
+                    <li>Node.js</li>
+                    <li>TypeScript</li>
+                    <li>React</li>
+                    <li>Metodologias Ágeis</li>
+                    <li>Estrutura de Dados</li>
+                    <li>Criatividade</li>
+                    <li>Dar e receber feedbacks</li>
+                    <li>Trabalhar em equipe</li>
+                    <li>Comunicação</li>
+                    <li>Inteligẽncia emocional</li>
+                </ul>
+            </div>
         </div>
-
-        <div id="lista_desordenada">
-            <h2>Lições a aprender</h2>
-            <ul id="licoes_a_aprender">
-                <li>Node.js</li>
-                <li>TypeScript</li>
-                <li>React</li>
-                <li>Metodologias Ágeis</li>
-                <li>Estrutura de Dados</li>
-                <li>Criatividade</li>
-                <li>Dar e receber feedbacks</li>
-                <li>Trabalhar em equipe</li>
-                <li>Comunicação</li>
-                <li>Inteligẽncia emocional</li>
-            </ul>
-        </div>
-        <article>
+        
+        <article id="lado-esquerdo">
             <h2>Artigo sobre o meu aprendizado</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, vel et vitae, dolore magni quasi, aut voluptas iusto laudantium quis consectetur praesentium modi? Numquam enim vitae quisquam iste dolor! Voluptatum molestias deleniti harum suscipit corrupti tempora odit, pariatur ullam et, quod accusamus repellendus voluptate quia officiis sed voluptatibus? Aut, ex?
             </p>            
         </article>
+        <aside id="lado-direito">
+            <h3>Descrição sobre mim</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi laboriosam laborum doloremque, beatae quam iure molestiae fuga placeat pariatur aliquid.
+            </p>
+        </aside>
     </main>
-    <aside>
-        <h3>Descrição sobre mim</h3>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi laboriosam laborum doloremque, beatae quam iure molestiae fuga placeat pariatur aliquid.
-        </p>
-    </aside>
 
     <table>
         <tr>
@@ -76,13 +79,14 @@
             <td>Dolor</td>
         </tr>
     </table>
+
     <footer id="rodape">
         <ul>
-            <li><a target="_blank" href="https://www.linkedin.com/in/thiagosilva042/">LinkedIn</a></li>
-            <li><a target="_blank" href="https://www.betrybe.com/">Trybe</a></li>
-            <li><a target="_blank" href="https://github.com/ThiagoSilva042">GitHub</a></li>
+            <li class="links"><a  target="_blank" href="https://www.linkedin.com/in/thiagosilva042/">LinkedIn</a></li>
+            <li class="links"><a  target="_blank" href="https://www.betrybe.com/">Trybe</a></li>
+            <li class="links"><a  target="_blank" href="https://github.com/ThiagoSilva042">GitHub</a></li>
         </ul>
-        <p></p> 
+        <p>Todos os direitos reservados, Thiago Silva.</p> 
     </footer>
 </body>
 </html>
