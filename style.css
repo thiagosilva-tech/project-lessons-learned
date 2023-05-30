@@ -71,8 +71,7 @@ table {
   margin: 80px auto;
 }
 
-td,
-th {
+td , th {
   border: 1px solid rgb(141, 184, 157);
   padding: 10px 20px;
   background-color: rgb(252, 248, 214);
